@@ -2,5 +2,11 @@
     .hide-menu {
         display: flex;
     }
-    
+    .green-background,.vehicule-background{
+        height: auto;
+        aspect-ratio: 16 / 9;
+    }
+    .vehicule-background{
+        width: 55.9rem;
+    }
 }

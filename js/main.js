@@ -1,8 +1,8 @@
 function BurgerToggle() {
     /*Désactiver le overflow*/
     var body = document.querySelector("body");
-    body.classList.toggle("no-overflow");
-    
+    body.classList.toggle("no-scroll");
+
     /*changer la hauteur du header*/
     var header = document.querySelector("header");
     header.classList.toggle("fullHeight");

@@ -7,7 +7,7 @@
         display:none;
     }
     .no-scroll{
-        overflow: none;
+        overflow: hidden;
     }
 
 }
