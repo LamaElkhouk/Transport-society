@@ -1,0 +1,103 @@
+main{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*section presentation-vehicules*/
+
+.presentation-vehicules{
+    width:100%;
+    height: 31.25rem;
+    position: relative;
+}
+.container-presentation-vehicules{
+    width: 33.531rem;
+    height: 18.688rem;
+    position: absolute;
+    z-index: 2;
+    top: 6.313rem;
+    left: 3.063rem;
+}
+.text-presentation-vehicules{
+    font-family: var(--mulish);
+    font-style: normal;
+    font-weight: var(--normal);
+    font-size: 1.125rem;
+    line-height: 1.438rem;
+    color:var(--white);
+    margin-top: 0.938rem;
+}
+.button-presentation-vehicules{
+    width: 19.125rem;
+    height: 3.5rem;
+    background-color: var(--white);
+    text-align: center;
+    font-family:var(--mulish);
+    font-style: normal;
+    font-weight: var(--semi-bold);
+    font-size: 1.125rem;
+    line-height: 1.438rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
+    position: absolute;
+    cursor: pointer;
+}
+.button-presentation-vehicules:hover{
+    background-color:#d8dbd9;
+    color: var(--green-two);
+    transition: 0.5s;
+}
+.green-background{
+    position: absolute;
+    z-index: 1;
+    top:0;
+    left:0;
+    height: 100%;
+}
+.vehicule-background{
+    position: absolute;
+    height: 100%;
+    width: 62.313rem;
+    top:0;
+    right: 0;
+}
+/*section current vehicules*/
+.current-vehicules{
+    width: 69.375rem;
+    height: 37.625rem;
+    margin: 6.25rem 10.313rem 6.25rem 10.313rem;
+}
+
+/*section refrigeration specialist*/
+.refrigeration-specialist{
+
+}
+
+/*section presentation of the transport society*/
+
+.presentation-transport-society{
+
+}
+/*section service*/
+
+.service{
+    width: 100%;
+    height: 47.402rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/*section contact us*/
+.contact-us{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/*section mp*/
+
+.map{
+    margin-top: 0;
+    margin-bottom: 0;
+}

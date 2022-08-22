@@ -1,0 +1,38 @@
+@media only screen and (max-width: 1108px){
+    /*class pour la hauteur du header lorsque menu burger ON*/
+    .fullHeight {
+        height: 100vh;
+    }
+    header{
+        transition: 0.5s ease-in-out;
+    }
+    nav .menu {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .logo {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .element-menu{
+        margin: 0.5rem 0 0.5rem 0;
+        transition: 0.5s ease-in-out;
+    }
+    .languages {
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        width: 100%;
+        box-shadow: none;
+        border-radius: none;
+        gap: 1rem;
+    }
+    .menu-deroulant summary {
+        height: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+}

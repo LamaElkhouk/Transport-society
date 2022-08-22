@@ -1,0 +1,31 @@
+footer{
+    display: flex;
+    flex-direction: column;
+    height: 22.563rem;
+    width: 100%;
+}
+.informations-footer{
+    display: flex;
+    flex-direction: row;
+    gap:7.625rem;
+    background-color: var(--background-footer);
+    padding:3.125rem 3.125rem 3.625rem 3.125rem;
+}
+.copyright-footer{
+    display: flex;
+    flex-direction: row;
+    background-color: var(--dark-black);
+    height: 5.688rem;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 3.125rem;
+    padding-left: 3.125rem;
+}
+.copyright-footer p{
+    font-family: var(--poppins);
+    font-style: normal;
+    font-weight:var(--normal);
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color:var(--white);
+}

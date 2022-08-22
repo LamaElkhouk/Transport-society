@@ -1,0 +1,13 @@
+@media only screen and (max-width: 1108px){
+    /*afficher et cacher des elements */
+    .showMobile{
+        display: flex;
+    }
+    .showDesktop{
+        display:none;
+    }
+    .no-scroll{
+        overflow: none;
+    }
+
+}
