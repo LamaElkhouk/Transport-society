@@ -49,6 +49,9 @@
     .current-vehicules,.one-vehicule{
         height: fit-content;
     }
+    .one-vehicule{
+        width: 10rem;
+    }
     .current-vehicules{
         margin-top: 2rem;
         margin-bottom: 2rem;
@@ -58,14 +61,18 @@
         /*carrousel for vehicules*/
         overflow-x: scroll;
         overflow-y: hidden;
-        white-space: nowrap;
         flex-wrap: nowrap;
-        margin:0.7rem 0 1rem 1rem;
+        margin:1rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        width: 90%;
     }
     .image-one-vehicule{
         width: 8rem;
     }
     .background-image-vehicule {
+        width: 10rem;
         height: 7rem;
     }
     .name-vehicule {
@@ -73,7 +80,7 @@
     }
     .name-vehicule p{
         font-size: 1rem;
-        margin: 0 1.188rem 0 1.188rem;
+        line-height: 0.95rem;
     }
 
 
