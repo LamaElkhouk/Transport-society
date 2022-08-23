@@ -9,5 +9,14 @@
     .no-scroll{
         overflow: hidden;
     }
+    h1 {
+        font-family: var(--poppins);
+        font-style: normal;
+        font-weight: var(--bold);
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+        color: var(--white);
+        margin:1.2rem 0 0 1.2rem;
+    }
 
 }
