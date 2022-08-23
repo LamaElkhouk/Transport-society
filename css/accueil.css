@@ -66,11 +66,12 @@ main{
 /*section current vehicules*/
 .current-vehicules{
     width: 69.375rem;
-    height: 37.625rem;
+    height: fit-content;
     margin: 6.25rem 10.313rem 6.25rem 10.313rem;
     display:flex;
     flex-direction: column;
     align-items: center;
+    background-color: var(--white);
 }
 .vehicules{
     display: flex;
@@ -120,15 +121,120 @@ main{
     -webkit-transform: scale(1.1); /* Safari 3-8 */
     transform: scale(1.1); 
 }
-/*section refrigeration specialist*/
-.refrigeration-specialist{
-
-}
-
 /*section presentation of the transport society*/
 
 .presentation-transport-society{
-
+    display: flex;
+    flex-direction: row;
+    gap:2.563rem;
+    height:fit-content;
+    width: 83.813rem;
+    margin: 0 3.125rem 6.25rem 3.125rem;
+    background-color: var(--white);
+}
+.driver-image{
+    Width:40.625rem;
+    Height:37.5rem;
+}
+.container-presentation-transport-society{
+    display: flex;
+    flex-direction: column;
+    gap:5.125rem;
+    width: 40rem;
+}
+.text-presentation-transport-society{
+    font-family:var(--mulish);
+    font-style: normal;
+    font-weight: var(--normal);
+    font-size: 1rem;
+    line-height: 1.25rem;
+    color: var(--dark-black);
+    width: 33.438rem;
+    margin: 0.813rem 0 0 0;
+}
+.espacement{
+    margin-top: 0.875rem;
+}
+.numbers{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-top: 1.125rem;
+}
+.one-information{
+    display: flex;
+    flex-direction: column;
+    gap: 0.313rem;
+    margin-right: 2.6rem;
+    margin-bottom: 1.25rem;
+}
+.number{
+    font-family:var(--mulish);
+    font-style: normal;
+    font-weight: var(--normal);
+    font-size: 1.563rem;
+    line-height: 1.938rem;
+    color:var(--dark-black);
+    margin: 0;
+}
+.information-number{
+    color:var(--grey);
+    font-family:var(--mulish);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    margin: 0;
+}
+/*section refrigeration specialist*/
+.refrigeration-specialist{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 76.688rem;
+    height: fit-content;
+    margin-bottom: 8.54rem;
+}
+.text-refrigeration-specialist{
+    font-family:var(--mulish);
+    font-style: normal;
+    font-weight:var(--normal);
+    font-size: 0.938rem;
+    line-height: 1.188rem;
+    color: var(--black);
+    margin:0;
+}
+.container1-refrigeration-specialist{
+    display: flex;
+    flex-direction: row;
+    margin-top: 4.5rem;
+}
+.column1-refrigeration-specialist{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: end;
+}
+.img-column2-refrigeration-specialist{
+    Width:32.721rem;
+    Height:19.823rem;
+}
+.column3-refrigeration-specialist{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: start;
+}
+.container2-refrigeration-specialist{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 3.178rem;
+    width: 40.625rem;
+}
+.column1-refrigeration-specialist>div,.column3-refrigeration-specialist>div{
+    width: 19.313rem;
 }
 /*section service*/
 

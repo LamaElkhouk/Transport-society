@@ -1,21 +1,12 @@
 :root
 {
     /*Typography*/
-    --bold:       700;
+    --bold:700;
     --semi-bold:600;
     --normal:  400;
-    
-    --giant:      2rem;
-    --biggest:    1.75rem;
-    --bigger:     1.625rem;
-    --big:        1.5rem;
-    --regular:    1.125rem;
-    --small:      1rem;
-    --extra-small: 0.875rem;
     /*Colors*/
     --dark-black: #000000;
     --black:#0A0A0A;
-    --background-body:#F2F2F2;
     --background-footer:#F7FCF9;
     --white:#FFFFFF;
     --green-button:#00A732;
@@ -46,6 +37,24 @@ h2{
     color:var(--dark-black);
     margin: 0;
 }
+h3{
+    font-family:var(--poppins);
+    font-style: normal;
+    font-weight:var(--bold);
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    color:var(--green-two);
+    margin: 0;
+}
+h4{
+    font-family:var(--poppins);
+    font-style: normal;
+    font-weight:var(--bold);
+    font-size: 1.125rem;
+    line-height:1.688rem;
+    color: var(--dark-black);
+    margin: 0;
+}
 body,html
 {
     margin: 0;
@@ -54,7 +63,7 @@ body,html
 }
 body{
     position: relative;
-    background-color: var(--background-body);
+    background-color: var(--white);
 }
 * {
     word-wrap: anywhere;
