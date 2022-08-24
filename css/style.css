@@ -14,6 +14,7 @@
     --green-two:#039F4E;
     --grey:#7B7D7C;
     --ligth-grey:#d8dbd9;
+    --input-color:#A5A5A5;
     /*fonts*/
     --poppins:'Poppins', sans-serif;
     --mulish:'Mulish',sans-serif;
@@ -42,7 +43,7 @@ h3{
     color:var(--green-two);
     margin: 0;
 }
-h4{
+h4,.input-label{
     font-size: 1.125rem;
     line-height:1.688rem;
     color: var(--dark-black);

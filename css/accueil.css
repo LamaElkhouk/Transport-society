@@ -299,9 +299,47 @@ main{
 .contact-us{
     margin-top: 0;
     margin-bottom: 0;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap:9.563rem;
+}
+.form-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 40.75rem;
+}
+.form-one-input-field{
+    display: flex;
+    flex-direction: column;
+}
+/*formulaire de la section contact*/
+
+
+.input-field {
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color:  #A5A5A5;
+    width: 19.063rem;
+}
+.input-field :focus {
+    border-color:  #A5A5A5;;
+}
+input[type='radio'] {
+    /*-webkit-appearance:none;
+    width:13px;
+    height:13px;
+    border:1px solid var(--dark-black);
+    border-radius:50%;
+    outline:none;*/
+    filter: grayscale(1);
+    accent-color: var(--dark-black);
+    cursor: pointer;
 }
 
-/*section mp*/
+
+/*section map*/
 
 .map{
     margin-top: 0;
