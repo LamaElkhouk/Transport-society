@@ -19,40 +19,47 @@
     --mulish:'Mulish',sans-serif;
 }
 /*elements communs aux pages*/
-h1{
+h1,h2,h3,h4,h5,.title-service{
     font-family: var(--poppins);
     font-style: normal;
     font-weight: var(--bold);
+}
+h1{
     font-size: 3rem;
     line-height: 3.75rem;
     color:var(--white);
     margin: 0;
 }
 h2{
-    font-family: var(--poppins);
-    font-style: normal;
-    font-weight: var(--bold);
     font-size: 2.5rem;
     line-height: 3.75rem;
     color:var(--dark-black);
     margin: 0;
 }
 h3{
-    font-family:var(--poppins);
-    font-style: normal;
-    font-weight:var(--bold);
     font-size: 1.25rem;
     line-height: 1.875rem;
     color:var(--green-two);
     margin: 0;
 }
 h4{
-    font-family:var(--poppins);
-    font-style: normal;
-    font-weight:var(--bold);
     font-size: 1.125rem;
     line-height:1.688rem;
     color: var(--dark-black);
+    margin: 0;
+}
+.title-service{
+    font-size: 2.5rem;
+    line-height: 3.75rem;
+    margin: 0;
+    color: var(--white);
+    z-index: 2;
+    width: 100%;
+}
+h5{
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    color:var(--white);
     margin: 0;
 }
 body,html

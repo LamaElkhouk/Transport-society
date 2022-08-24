@@ -203,7 +203,7 @@ main{
     font-size: 0.938rem;
     line-height: 1.188rem;
     color: var(--black);
-    margin:0;
+    margin:0.5rem 0 0 0;
 }
 .container1-refrigeration-specialist{
     display: flex;
@@ -240,9 +240,61 @@ main{
 
 .service{
     width: 100%;
-    height: 47.402rem;
+    /*height: 47.402rem;*/
+    height: 43.4rem;
     margin-top: 0;
     margin-bottom: 0;
+    position: relative;
+}
+.green-background2{
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    right:0;
+    width: 100%;
+}
+.information-service{
+    margin-top: 8.009rem;
+    right: 7.5rem;
+    gap: 1.875rem;
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 40.625rem;
+    height: fit-content;
+    
+  
+}
+.one-information-service{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    height: fit-content;
+    width: 19.063rem;
+}
+.text-information-service{
+    font-family:var(--mulish);
+    font-style: normal;
+    font-weight: var(--normal);
+    font-size: 1rem;
+    line-height: 1.25rem;
+    color:var(--white);
+    margin: 0;
+}
+.mecanicien{
+    position: absolute;
+    z-index: 3;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+}
+.position-button-desktop{
+    z-index: 2;
+    right: 29rem;
+    bottom: 1.973rem;
 }
 
 /*section contact us*/
