@@ -102,6 +102,30 @@ summary{
     gap:0.906rem;
     cursor: pointer;
 }
+/*icon arrow for header submenu*/
+.icon-select {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 22px;
+    height: 22px
+}
+.icon-select::before{
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    left: 7px;
+    transform: rotate(-45deg)
+}
+.icon-select::before {
+    border-left: 2px solid;
+    border-bottom: 2px solid;
+    bottom: 10px
+}
 /*menu burger*/
 .burger
 {
@@ -117,15 +141,6 @@ summary{
     position: absolute;
     right: 1rem;
 }
-
-/*@media screen and (max-width: 1279px)
-{
-    .burger
-    {
-        order: 2;
-    }
-}*/
-
 .burger-inner
 {
     position: relative;
