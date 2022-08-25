@@ -340,8 +340,80 @@ input[type='radio'] {
 
 
 /*section map*/
-
-.map{
+.map-section, .map {
     margin-top: 0;
     margin-bottom: 0;
+    width: 100%;
+    height: 43.125rem;
+    position: relative;
+}
+
+.map {
+    height: 100%;
+}
+.agencies{
+    display: flex;
+    flex-direction: column;
+    Width:33.438rem;
+    Height:29.25rem;
+    position: absolute;
+    z-index: 2;
+    top:3.125rem;
+    left: 3.125rem;
+    background-color: var(--white);
+}
+.title-our-agencies{
+    margin: 0;
+    font-family:var(--poppins);
+    font-style: normal;
+    font-weight: var(--bold);
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    color: var(--dark-black);
+    margin: 0 0 0.5rem 0;
+
+}
+.our-agencies{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--menu-map);
+    padding: 1.563rem 0 1.938rem 1.563rem;
+
+}
+.city{
+    font-family: var(--poppins);
+    font-style: normal;
+    font-weight: var(--bold);
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin: 0;
+    color: var(--dark-black);
+}
+.contact-our-agencies,.telephone-our-agencies,.address{
+    font-family: var(--mulish);
+    font-style: normal;
+    font-weight: var(--normal);
+    font-size: 0.938rem;
+    line-height: 1.188rem;
+    color: var(--dark-black);
+    margin: 0;
+}
+.text-agency{
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    width: 25.5rem;
+}
+.agency{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: var(--white);
+    padding: 1.25rem 0 1.25rem 1.563rem;
+    gap: 4.313rem;
+    cursor: pointer;
+}
+.agency:hover{
+    background-color: var(--menu-map);
+    transition: 0.25s;
 }

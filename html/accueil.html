@@ -325,8 +325,50 @@
                 </div>
             </div>
         </section>
-        <section class="map">
-            map
+        <section class="map-section">
+            <div class="agencies">
+                <div class="our-agencies">
+                    <div class="cross-container" onclick="MenuMapToggle()">
+                        <div class="close showMobile" ></div>
+                    </div>
+                    
+                    <p class="title-our-agencies">Our agencies in South Africa</p>
+                    <p class="contact-our-agencies">Contact : Jacobus Van Niekerk</p>
+                    <p class="telephone-our-agencies">Telephone: +27 67 674 0573</p>
+                </div>
+                <div class="agency">
+                    <div class="text-agency">
+                        <p class="city">
+                            Johannesburg
+                        </p>
+                        <p class="address">
+                            99 Skew Road, 1459, 
+                            Boksburg, Gauteng</p>
+                    </div>
+                        <i class="icon-select-submenu"></i> 
+                </div>
+                <div class="agency">
+                    <div class="text-agency">
+                        <p class="city">
+                            Durban
+                        </p>
+                        <p class="address">
+                            Unit 4b, 50 Moreland Drive, Rinaldo Industrial Park, Redhill 4071, Durban, KZN</p>
+                    </div>
+                    <i class="icon-select-submenu"></i> 
+                </div>
+                <div class="agency">
+                    <div class="text-agency">
+                        <p class="city">
+                            Cape Town
+                        </p>
+                        <p class="address">
+                            111 Kruis Road, Brackenfell, 7560, Cape Town, Western Cape</p>
+                    </div>
+                    <i class="icon-select-submenu"></i> 
+                </div>
+            </div>
+            <div id="map" class="map"></div>
         </section>
     </main>
 
@@ -357,6 +399,11 @@
             <p>© 2022 Transport society</p>
         </div>
     </footer>
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCsKQOlGFGuu7xFLlM3Do-TfryG3Teq098&callback=initMap&v=weekly"
+        defer
+    ></script>
+
     <script type="text/javascript" src="../js/main.js"></script>
 </body>
 </html>
