@@ -221,6 +221,33 @@
     .agency > .icon-select-submenu{
         left: -0.5rem;
     }
+    /* section formulaire */
+    .contact-us{
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+    .contact-us h2{
+        margin: 0;
+    }
+    .form-container{
+        flex-direction: column;
+        width: 80%;
+        margin: 1rem;
+    }
+    .form-info-container{
+        margin: 1rem;
+        width: 80%;
+    }
+    .form-one-input-field{
+        width: 100%
+    }
+    .form-one-input-field:nth-child(7), .form-one-input-field:nth-child(10){
+        width: 100%;
+    }
+    .checkbox-label{
+        width: 100%;
+    }
 }
 
 /*format tablette*/
@@ -275,16 +302,16 @@
         width: 10rem;
         height: 7rem;
     }
-     /*section presentation of the transport society*/
-     .presentation-transport-society {
+    /*section presentation of the transport society*/
+    .presentation-transport-society {
         width: auto;
     }
     .numbers {
         display: flex;
         justify-content: flex-start;
     }
-     /*section refrigeration specialist*/
-     .column1-refrigeration-specialist>div,.column3-refrigeration-specialist>div{
+    /*section refrigeration specialist*/
+    .column1-refrigeration-specialist>div,.column3-refrigeration-specialist>div{
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
         height: 13rem;
         border-radius: 1rem;
@@ -313,12 +340,12 @@
         display: flex;
         flex-direction: column;
     }
-     /*section full service*/
-     .information-service{
+    /*section full service*/
+    .information-service{
         right: auto;
         margin-top: 2rem;
-     }
-     .service{
+    }
+    .service{
         background:var(--green-two);
         display: flex;
         justify-content: center;
@@ -333,11 +360,17 @@
     .position-button-mobile{
         bottom: 0.7rem;
         right: 1rem;
-      }
+    }
     .position-button-mobile {
         bottom: 2rem;
         right: 2rem;
     }
-    
+    /*section formulaire de contact*/
+    .contact-us{
+        gap: 3.125rem;
+    }
+    .form-container{
+        margin: 3.125rem 3.125rem 6.25rem 0;
+    }
 
 }

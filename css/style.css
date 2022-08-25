@@ -13,6 +13,7 @@
     --green-one:#00A343;
     --green-two:#039F4E;
     --grey:#7B7D7C;
+    --form-infos-item:#393939;
     --ligth-grey:#d8dbd9;
     --input-color:#A5A5A5;
     --menu-map:#F3F3F3;
@@ -21,7 +22,7 @@
     --mulish:'Mulish',sans-serif;
 }
 /*elements communs aux pages*/
-h1,h2,h3,h4,h5,.title-service{
+h1,h2,h3,h4,h5,.title-service,.input-label{
     font-family: var(--poppins);
     font-style: normal;
     font-weight: var(--bold);

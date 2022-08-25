@@ -302,42 +302,110 @@ main{
     display: flex;
     flex-direction: row;
     width: 100%;
-    gap:9.563rem;
+    gap: 9.563rem;
+}
+.form-info-container{
+    margin: 3.125rem 0 0 3.125rem;
+}
+.form-info-title{
+    margin: 0 0 0.75rem 0;
+    font-family: var(--poppins);
+    font-style: normal;
+    font-weight: var(--bold);
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    color: var(--dark-black);
+}
+.form-infos-item{
+    font-family: var(--mulish);
+    font-style: normal;
+    font-weight: var(--normal);
+    font-size: 1.125rem;
+    line-height: 1.875rem;
+    color: var(--form-infos-item);
+    margin: 0;
 }
 .form-container{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     width: 40.75rem;
+    column-gap: 2.625rem;
+    row-gap: 1.563rem;
+    margin: 3.125rem 10.313rem 6.25rem 0;
 }
 .form-one-input-field{
     display: flex;
     flex-direction: column;
+    row-gap: 0.5rem;
+    width: calc(50% - 2.625rem/2);
 }
-/*formulaire de la section contact*/
-
+.form-one-input-field:nth-child(7), .form-one-input-field:nth-child(10){
+    width: 100%;
+}
+.img-contact-us{
+    Width:26.563rem;
+    height: 13.905rem;
+}
 
 .input-field {
     outline: 0;
     border-width: 0 0 2px;
     border-color:  #A5A5A5;
-    width: 19.063rem;
+    width: 100%;
 }
 .input-field :focus {
     border-color:  #A5A5A5;;
 }
+
 input[type='radio'] {
-    /*-webkit-appearance:none;
-    width:13px;
-    height:13px;
-    border:1px solid var(--dark-black);
-    border-radius:50%;
-    outline:none;*/
     filter: grayscale(1);
     accent-color: var(--dark-black);
     cursor: pointer;
 }
-
+.radio-label{
+    font-family:  var(--mulish);
+    font-style: normal;
+    font-weight: var(--normal);
+    font-size: 0.938rem;
+    line-height: 1.188rem;
+}
+.form-checkbox{
+    margin: 2.5rem 0 3.125rem 0;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    gap: 0.625rem;
+}
+.checkbox-label{
+    font-family: var(--mulish);
+    font-style: normal;
+    font-weight: var(--normal);
+    font-size: 0.875rem;
+    line-height: 1.125rem;
+    color: var(--dark-black);
+}
+.form-submit{
+    border: 0;
+    border-radius: 0;
+    color: var(--white);
+    background: var(--green-button);
+    font-family: var(--mulish);
+    font-style: normal;
+    font-weight: var(--semi-bold);
+    font-size: 1.125rem;
+    line-height: 1.438rem;
+    text-align: center;
+    height: 3.5rem;
+    width: 19.188rem;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+.form-submit:hover{
+    background-color: var(--white);
+    color: var(--green-button);
+    border: 0.125rem solid var(--green-button);
+}
 
 /*section map*/
 .map-section, .map {

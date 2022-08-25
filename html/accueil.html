@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="../css/footer-mobile.css" type="text/css"/>
     <link rel="stylesheet" href="../css/style-mobile.css" type="text/css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="../fonts/Mulish-VariableFont_wght.ttf" />
+    <link href="../fonts/Poppins-Regular.ttf" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Mulish&family=Poppins&display=swap" rel="stylesheet"> 
     <title>Transport society</title>  
@@ -271,16 +273,45 @@
 
         </section>
         <section class="contact-us">
-            <div>
+            <div class="form-info-container">
                 <h2>Contact us </h2>
+                <img alt="trucks" src="../images/accueil/trucks.svg" class="img-contact-us showDesktop">
+                <p class="form-info-title">For more information, please don’t hesitate to get in touch with William :</p>
+                <div class="form-infos">
+                    <p class="form-infos-item">William Racinne – Country Director</p>
+                    <p class="form-infos-item">Telephone:  +27 72 134 1225</p>
+                    <p class="form-infos-item">Email : wracinne@transportsociety.co.za</p>
+                    <p class="form-infos-item">Twitter : @WilliamRacinne</p>
+                </div>
             </div>
             <div class="form-container">
                 <div class="form-one-input-field">
-                    <label class="input-label">Forname</label>
+                    <p class="input-label">Profile</p>
+                    <div class="option-contact">
+                        <input id="consumer" name="profile" class="" type="radio" checked>
+                        <label class="radio-label" for="consumer" >Consumer.</label>
+                    
+    
+                        <input id="professionnal" name="profile" class="declarations-form-input-field-radio" type="radio">
+                        <label class="radio-label" for="professionnal">Professionnal.</label>
+                    </div>
+                </div>
+                <div class="form-one-input-field">
+                    <p class="input-label">Title</p>
+                    <div class="option-contact">
+                        <input id="M" name="title" class="" type="radio" checked >
+                        <label class="radio-label"  for="M">M.</label>
+        
+                        <input id="Mrs" name="title" class="declarations-form-input-field-radio" type="radio">
+                        <label class="radio-label" for="Mrs">Mrs.</label>
+                    </div>
+                </div>
+                <div class="form-one-input-field">
+                    <label class="input-label">Forename</label>
                     <input class="input-field" placeholder="&nbsp;" type="text">
                 </div>
                 <div class="form-one-input-field">
-                    <label class="input-label"> Surname</label>
+                    <label class="input-label">Surname</label>
                     <input class="input-field" type="text">
                 </div>
                 <div class="form-one-input-field">
@@ -288,7 +319,7 @@
                     <input class="input-field" type="text">
                 </div>
                 <div class="form-one-input-field">
-                    <label class="input-label"> Job title</label>
+                    <label class="input-label">Job title</label>
                     <input class="input-field" type="text">
                 </div>
                 <div class="form-one-input-field">
@@ -300,29 +331,18 @@
                     <input class="input-field" type="text">
                 </div>
                 <div class="form-one-input-field">
-                    <label class="input-label">Country</label>
-                    <input class="input-field" type="text">
+                    <label class="input-label" >Country</label>
+                    <input class="input-field" value="South Africa" type="text">
                 </div>
                 <div class="form-one-input-field">
                     <label class="input-label">Message</label>
                     <input class="input-field" placeholder="Your message"type="text">
                 </div>
-                <div class="form-one-input-field">
-                    Title
-                    <input class="" type="radio">
-                    <label class="radio-label" for="M.">M.</label>
-    
-                    <input class="declarations-form-input-field-radio" type="radio">
-                    <label class="radio-label" for="Mrs">Mrs.</label>
+                <div class="form-checkbox">
+                    <input id="checkbox" class="checkbox-field" type="checkbox">
+                    <label for="checkbox" class="checkbox-label">Cochez cette case si, au-delà de la réponse à votre demande d'information, vous souhaitez recevoir d'autres communications de notre part.*</label>
                 </div>
-                <div class="form-one-input-field">
-                    Profile
-                    <input class="" type="radio">
-                    <label class="radio-label" for="non">Consumer.</label>
-    
-                    <input class="declarations-form-input-field-radio" type="radio">
-                    <label class="radio-label" for="oui">Professionnal.</label>
-                </div>
+                <input class="form-submit" type="submit" value="Submit">
             </div>
         </section>
         <section class="map-section">
